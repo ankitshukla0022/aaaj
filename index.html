@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- font awesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container flex ai-c jc-sb top">
+            <div class="logo">
+                <img src="./img/weeb-logo+(1)-337w.webp" alt="logo">
+            </div>
+            <nav>
+                <a href="#">About Us</a>
+                <a href="#">Why Choose Us</a>
+                <a href="#">Happy Interns</a>
+                <a href="#">Testimonials</a>
+                <a href="#">FAQ</a>
+                <a href="#">Road Map</a>
+                <a href="https://forms.gle/YwNDVcda6cQTUUqk6" class="btn">Apply Now
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </nav>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="container banner flex ai-c">
+            <div class="data">
+                <h1>Build Your IT Here</h1>
+                <p>You Have A Vision. We Have A Team To Get You There. Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit. Inventore amet qui molestias dignissimos, facilis ad cupiditate est asperiores, quaerat
+                    obcaecati repudiandae provident nemo ullam id natus deserunt dolore doloremque officia?</p>
+                <button><a href="#">Read More...</a></button>
+            </div>
+            <div class="img">
+                <img src="./img/361-removebg-preview.png" alt="banner img">
+            </div>
+        </div>
+    </header>
+    <!-- why choose us -->
+    <section class="choose-us">
+        <div class="container flex ai-c">
+            <div class="img">
+                <img src="./img/361-removebg-preview.png" alt="">
+            </div>
+            <div class="data">
+                <h2>We Build IT That Build Your Business</h2>
+                <p>We At <b>Weeb Innovation</b> Believe In Making Our Youth Especially The Students Self-Aware And
+                    Exploring The
+                    Untouched World Of Technology And Tremendous Growth-Making Fields. We Believes In Bridging The Gap
+                    Between Students And Their Knowledge In The Industrial Field & Bringing Them A Step Closer To Their
+                    Dream. Always Open To Connect New People With Us Over This Journey
+                    Of Endless Learning And Great Joy!</p>
+                <!-- <div class="cards flex ai-c jc-sb">
+                    <div class="card flex ai-c">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2><span id="counter">00</span>M+<span>Download</span></h2>
+                    </div>
+                    <div class="card flex ai-c">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>17M+<span>Download</span></h2>
+                    </div>
+                    <div class="card flex ai-c">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>17M+<span>Download</span></h2>
+                    </div>
+                    <div class="card flex ai-c">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h2>17M+<span>Download</span></h2>
+                    </div>
+                </div> -->
+                <div id="counter-section-container">
+                    <div id="counter-box-container" class="cards flex ai-c jc-sb">
+                        <div id="counter-box" class="card flex ai-c">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span class="counter" data-number="150000"></span>
+                        </div>
+                        <div id="counter-box" class="card flex ai-c">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span class="counter" data-number="2000"></span>
+                        </div>
+                        <div id="counter-box" class="card flex ai-c">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span class="counter" data-number="100"></span>
+                        </div>
+                        <div id="counter-box" class="card flex ai-c">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span class="counter" data-number="100"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reviews -->
+    <section class="reviews">
+        <div class="container">
+            <h2> Student reviews</h2>
+            <p class="head">Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has
+                beenthe standard
+                dummy.</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img">
+                        <img src="./img/361.jpg" alt="">
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                        indus orem Ipsum has beenthe standard dummy.</p>
+                        <div class="student">
+                            <h4>Shayna</h4>
+                            <p>Careative</p>
+                        </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                            indus orem Ipsum has beenthe standard dummy.</p>
+                        <div class="img flex ai-c jc-c">
+                            <img src="./img/361.jpg" alt="">
+                            <div class="student">
+                                <h4>Shayna</h4>
+                                <p>Careative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                            indus orem Ipsum has beenthe standard dummy.</p>
+                        <div class="img flex ai-c jc-c">
+                            <img src="./img/361.jpg" alt="">
+                            <div class="student">
+                                <h4>Shayna</h4>
+                                <p>Careative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                            indus orem Ipsum has beenthe standard dummy.</p>
+                        <div class="img flex ai-c jc-c">
+                            <img src="./img/361.jpg" alt="">
+                            <div class="student">
+                                <h4>Shayna</h4>
+                                <p>Careative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                            indus orem Ipsum has beenthe standard dummy.</p>
+                        <div class="img flex ai-c jc-c">
+                            <img src="./img/361.jpg" alt="">
+                            <div class="student">
+                                <h4>Shayna</h4>
+                                <p>Careative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                        indus orem Ipsum has beenthe standard dummy.</p>
+                    <div class="img flex ai-c jc-c">
+                        <img src="./img/361.jpg" alt="">
+                        <div class="student">
+                            <h4>Shayna</h4>
+                            <p>Careative</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <h2>FAQ - Frequently Asked Questions</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard
+                dummy.</p>
+            <details>
+                <summary>This is question 1 ?</summary>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, ea architecto ad
+                    maiores veritatis rem dolore voluptates molestiae quisquam magnam expedita eum perspiciatis
+                    repellendus ipsam et nam quo.</p>
+            </details>
+            <details>
+                <summary>This is question 2 ?</summary>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, ea architecto ad
+                    maiores veritatis rem dolore voluptates molestiae quisquam magnam expedita eum perspiciatis
+                    repellendus ipsam et nam quo.</p>
+            </details>
+            <details>
+                <summary>This is question 3 ?</summary>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, ea architecto ad
+                    maiores veritatis rem dolore voluptates molestiae quisquam magnam expedita eum perspiciatis
+                    repellendus ipsam et nam quo.</p>
+            </details>
+            <details>
+                <summary>This is question 4 ?</summary>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, ea architecto ad
+                    maiores veritatis rem dolore voluptates molestiae quisquam magnam expedita eum perspiciatis
+                    repellendus ipsam et nam quo.</p>
+            </details>
+        </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <h2>What our students say</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard
+                dummy.</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting
+                        indus orem Ipsum has beenthe standard dummy.</p>
+                    <div class="img flex ai-c jc-c">
+                        <img src="./img/361.jpg" alt="">
+                        <div class="student">
+                            <h4>Shayna</h4>
+                            <p>Careative</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Road map -->
+    <section class="roadmap">
+        <div class="container">
+            <h2>Road Map</h2>
+            <p>To complete the internship you must have to follow the given instructions</p>
+            <div class="mainmap">
+                <div class="map flex ai-c jc-sb">
+                    <div class="card">
+                        <h4>Register yourself</h4>
+                        <div class="icons">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>You will get the registration link at the top of the page</p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/download_app.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                        <img src="./img/icon_bg.png" alt="">
+                    </div>
+                    <h2 class="num">01</h2>
+                </div>
+                <div class="map flex ai-c jc-sb">
+                    <div class="img">
+                        <img src="./img/download_app.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <h4>Completion of given tasks</h4>
+                        <span>Some task will be assign to you</span>
+                        <p>You have to comptele the tasks yourself without copying from anywhere and submit in the given
+                            time period</p>
+                    </div>
+                    <div class="circle">
+                        <img src="./img/icon_bg.png" alt="">
+                    </div>
+                    <h2 class="num">02</h2>
+                </div>
+                <div class="map flex ai-c jc-sb">
+                    <div class="card">
+                        <h4>Submission</h4>
+                        <span>Submission of projects</span>
+                        <p>You have to host the assigned tasks on github and then share it to your linkedin profile and
+                            tag to Web Innotaion and then submit the links of your projects on the given link and wait
+                            for the further process</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="./img/download_app.jpg" alt="">
+                    </div>
+                    <div class="circle">
+                        <img src="./img/icon_bg.png" alt="">
+                    </div>
+                    <h2 class="num">03</h2>
+                </div>
+                <div class="line"> </div>
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container flex jc-sb ai-c">
+            <p>© Copyrights 2022. All rights reserved.</p>
+            <p>Design & developed by <a href="#">Ankit Shukla</a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: false,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/counter.js"></script>
+</body>
+
+</html>

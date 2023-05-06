@@ -1,0 +1,345 @@
+/* header */
+header {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(112, 158, 212, 1) 100%);
+    max-height: 100vh;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: var(--black-color);
+}
+
+header .btn {
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    background: var(--primary-color);
+    margin-left: 20px;
+    border-radius: 30px;
+    color: var(--white-color);
+    transition: .5s ease-in-out;
+}
+
+header .btn i {
+    padding-left: 5px;
+    width: 0px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+header .btn:hover i {
+    padding-left: 5px;
+    width: 20px;
+}
+
+header .btn:hover {
+    padding: 10px 15px 10px 20px;
+}
+
+header .fa-bars {
+    display: none;
+    font-size: 20px;
+}
+
+header .top {
+    padding: 10px 0;
+}
+
+/* banner */
+header .banner {
+    padding: 30px 0 80px;
+}
+
+header .banner .data {
+    width: 55%;
+    margin-right: 30px;
+}
+
+header .banner .data p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+header .banner .img {
+    width: 45%;
+}
+
+header .banner .img img {
+    width: 100%;
+}
+
+header .banner .data button {
+    padding: 10px 25px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+}
+
+header .banner .data button a {
+    color: var(--white-color);
+}
+
+/* why choose us */
+
+.choose-us {
+    padding: 80px 0;
+}
+
+.choose-us .data {
+    width: 50%;
+}
+
+.choose-us .cards {
+    flex-wrap: wrap;
+    gap: 25px 30px;
+    padding-top: 30px;
+}
+
+.choose-us .card {
+    padding: 18px 40px;
+    /* background: grey; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 0px #ccc;
+    margin: auto;
+}
+
+.choose-us .card h2 {
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.choose-us .card h2 span {
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+}
+
+.choose-us .card i {
+    font-size: 26px;
+    margin-right: 10px;
+    background: #ebebeb;
+    padding: 13px 10px;
+    border-radius: 50%;
+}
+
+.choose-us .img {
+    width: 50%;
+}
+
+/* reviews */
+.reviews h2 {
+    text-align: center;
+}
+
+.reviews .item {
+    position: relative;
+}
+
+.owl-nav .owl-prev {
+    font-size: 40px;
+}
+
+.owl-next {}
+
+.reviews .head {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.reviews .owl-theme i {
+    color: var(--primary-color);
+    padding: 0 3px;
+    margin-bottom: 15px;
+}
+
+.reviews .owl-theme .img {
+    max-width: 80px;
+    width: 100%;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.reviews .owl-theme .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.reviews .owl-theme {
+    text-align: center;
+}
+
+.reviews .item h4 {
+    padding-top: 10px;
+}
+
+/* faq */
+.faq {
+    padding: 80px 0;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq .container>p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.faq details {
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.faq details summary {
+    padding-bottom: 15px;
+}
+
+/* testimonail */
+.testimonial {
+    /* padding: 80px 0; */
+}
+
+.testimonial h2,
+.testimonial .container>p {
+    text-align: center;
+}
+
+.testimonial .item {
+    padding-top: 30px;
+}
+
+.testimonial .head {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.testimonial .owl-theme i {
+    color: var(--primary-color);
+    padding: 0 3px;
+    margin-bottom: 15px;
+}
+
+.testimonial .owl-theme .img {
+    max-width: 80px;
+    width: 100%;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.testimonial .owl-theme .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimonial .owl-theme {
+    text-align: center;
+}
+
+/* Road map */
+.roadmap {
+    padding: 80px 0;
+}
+
+.roadmap h2,
+.roadmap .container>p {
+    text-align: center;
+}
+
+.roadmap .map {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.roadmap .mainmap {
+    position: relative;
+}
+
+.roadmap .card {
+    max-width: 500px;
+    width: 100%;
+}
+
+.roadmap .icons {
+    margin: 10px 0;
+}
+
+.roadmap .icons i {
+    padding: 10px 9px;
+    background: var(--grey-color);
+    border-radius: 50%;
+    color: var(--white-color);
+}
+
+.roadmap .map span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.roadmap .line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, 0%);
+    width: 5px;
+    background-color: var(--grey-color);
+}
+
+.roadmap .top {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 13px;
+    border-radius: 50%;
+    width: 5px;
+    background-color: var(--grey-color);
+}
+
+.roadmap .bottom {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 13px;
+    border-radius: 50%;
+    width: 5px;
+    background-color: var(--grey-color);
+}
+
+.roadmap .map .card:nth-child(2n-1) {
+    text-align: right;
+}
+
+.roadmap .circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.roadmap .num {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    font-weight: 600;
+    z-index: 2;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+
+footer a {
+    color: var(--black-color);
+}
